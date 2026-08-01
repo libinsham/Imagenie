@@ -33,10 +33,10 @@ export default function B2CPage() {
             B2C PAGE – “B2C, D2C & Brand Experiences
           </span>
 
-          <h1>B2C brands people remember and return to. </h1>
+          <h1>B2C brands people remember   <br />and return to. </h1>
 
           <p className="b2b-hero__subtitle">
-            From identity and packaging to campaigns and content, we help consumer brands build stronger presence, consistency, and conversion.
+            From identity and packaging to campaigns and content,   <br />we help consumer brands build stronger presence, consistency, and conversion.
           </p>
 
          
