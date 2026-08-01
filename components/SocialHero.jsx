@@ -23,13 +23,13 @@ export default function SocialHero() {
               platform.
             </p>
 
-            <div className="social-hero__buttons">
+            
               <div className="c-btn c-btn--orange">
                 <Link href="/contact">
                   Follow Our Journey
                 </Link>
               </div>
-            </div>
+          
           </div>
 
           <div className="social-hero__right">
@@ -46,9 +46,7 @@ export default function SocialHero() {
               <div className="social-icons">
                 <a href="#">IG</a>
                 <a href="#">IN</a>
-                <a href="#">YT</a>
-                <a href="#">BE</a>
-                <a href="#">FB</a>
+               
               </div>
             </div>
 
