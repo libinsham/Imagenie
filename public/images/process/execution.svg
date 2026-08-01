@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 64 64" fill="none">
+
+  <!-- Rocket Body -->
+  <path d="M38 10C47 11 53 17 54 26L40 40L24 24L38 10Z" stroke="#EE9A21" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Rocket Window -->
+  <circle cx="40" cy="24" r="3" stroke="#EE9A21" stroke-width="3"></circle>
+
+  <!-- Left Fin -->
+  <path d="M24 24L16 28L20 20L24 24Z" stroke="#EE9A21" stroke-width="3" stroke-linejoin="round"></path>
+
+  <!-- Right Fin -->
+  <path d="M40 40L44 48L48 40L40 40Z" stroke="#EE9A21" stroke-width="3" stroke-linejoin="round"></path>
+
+  <!-- Flame -->
+  <path d="M22 42C20 46 20 50 24 54C28 50 28 46 26 42" stroke="#EE9A21" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+</svg>

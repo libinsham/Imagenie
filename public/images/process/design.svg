@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 64 64" fill="none">
+
+  <!-- Pencil -->
+  <path d="M18 46L14 50L18 46ZM22 42L46 18C47.7 16.3 50.3 16.3 52 18C53.7 19.7 53.7 22.3 52 24L28 48L18 50L20 40L44 16" stroke="#EE9A21" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Ruler -->
+  <rect x="10" y="10" width="14" height="40" rx="2" stroke="#EE9A21" stroke-width="3"></rect>
+
+  <line x1="14" y1="16" x2="20" y2="16" stroke="#EE9A21" stroke-width="2" stroke-linecap="round"></line>
+
+  <line x1="14" y1="24" x2="20" y2="24" stroke="#EE9A21" stroke-width="2" stroke-linecap="round"></line>
+
+  <line x1="14" y1="32" x2="20" y2="32" stroke="#EE9A21" stroke-width="2" stroke-linecap="round"></line>
+
+  <line x1="14" y1="40" x2="20" y2="40" stroke="#EE9A21" stroke-width="2" stroke-linecap="round"></line>
+
+</svg>

@@ -1,0 +1,270 @@
+/* ===========================
+   B2C CTA
+=========================== */
+
+.b2c-cta-section {
+  background: #fff;
+  padding: 110px 0;
+  text-align: center;
+}
+
+.b2c-cta-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.b2c-cta-eyebrow {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: MontLight, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #EE9A21;
+}
+
+.b2c-cta-title {
+  margin: 0;
+  font-size: 64px;
+  line-height: 1.05;
+  font-family: MontLight, sans-serif;
+  color: #111;
+}
+
+.b2c-cta-description {
+  max-width: 700px;
+  margin: 35px auto 50px;
+  font-size: 22px;
+  line-height: 1.7;
+  color: #666;
+  font-family: MontLight, sans-serif;
+}
+
+.b2c-cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Orange Button */
+
+.c-btn--orange {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 42px;
+  border-radius: 999px;
+  background:#EE9A21; 
+  color: #fff;
+  text-decoration: none;
+  font-family: MontLight, sans-serif;
+  transition: 0.3s;
+}
+
+.c-btn--orange:hover {
+  background: #e65c00;
+}
+
+.c-btn--orange {
+  background: #EE9A21;
+  color: #000;
+  font-weight: 600;
+}
+
+.c-btn--orange:hover {
+  background: #D98912;
+  color: #000;
+}
+
+/* ===========================================
+   B2C INDUSTRIES
+=========================================== */
+
+.b2c-industries {
+  background: #050505;
+  padding: 120px 0;
+}
+
+.b2c-industries__header {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto 70px;
+}
+
+.b2c-industries__eyebrow {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #EE9A21;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: MontLight, sans-serif;
+}
+
+.b2c-industries__header h2 {
+  margin: 0;
+  color: #fff;
+  font-size: 64px;
+  line-height: 1.05;
+  font-family: MontLight, sans-serif;
+}
+
+.b2c-industries__header h2 span {
+  color: #EE9A21;
+}
+
+.b2c-industries__header p {
+  max-width: 720px;
+  margin: 30px auto 0;
+  color: #9d9d9d;
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: MontLight, sans-serif;
+}
+
+/*=========================
+Grid
+=========================*/
+
+.b2c-industries__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+}
+
+/*=========================
+Card
+=========================*/
+
+.b2c-industry-card {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 18px;
+  padding: 40px 28px;
+  text-align: center;
+  transition: all .35s ease;
+}
+
+.b2c-industry-card:hover {
+  transform: translateY(-10px);
+  border-color: #EE9A21;
+  box-shadow: 0 25px 60px rgba(255,106,0,.18);
+}
+
+.b2c-industry-card__icon {
+  width: 82px;
+  height: 82px;
+  margin: 0 auto 22px;
+  border-radius: 50%;
+  background: rgba(255,106,0,.08);
+  border: 1px solid rgba(255,106,0,.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #EE9A21;
+  font-size: 36px;
+
+  transition: .35s;
+}
+
+.b2c-industry-card:hover .b2c-industry-card__icon {
+  transform: scale(1.12);
+  background: #EE9A21;
+  color: #fff;
+}
+
+.b2c-industry-card__no {
+  color: #EE9A21;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: MontLight, sans-serif;
+}
+
+.b2c-industry-card h3 {
+  color: #fff;
+  margin: 0 0 16px;
+  font-size: 28px;
+  line-height: 1.25;
+  font-family: MontLight, sans-serif;
+}
+
+.b2c-industry-card p {
+  color: #a5a5a5;
+  font-size: 17px;
+  line-height: 1.75;
+  font-family: MontLight, sans-serif;
+}
+
+/*=========================
+Responsive
+=========================*/
+
+@media (max-width:1400px){
+
+  .b2c-industries__grid{
+    grid-template-columns:repeat(4,1fr);
+  }
+
+}
+
+@media (max-width:1100px){
+
+  .b2c-industries__grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+}
+
+@media (max-width:768px){
+
+  .b2c-industries{
+    padding:80px 20px;
+  }
+
+  .b2c-industries__header h2{
+    font-size:44px;
+  }
+
+  .b2c-industries__header p{
+    font-size:18px;
+  }
+
+  .b2c-industries__grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+@media (max-width:560px){
+
+  .b2c-industries__grid{
+    grid-template-columns:1fr;
+  }
+
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .b2c-cta-section {
+    padding: 70px 20px;
+  }
+
+  .b2c-cta-title {
+    font-size: 42px;
+  }
+
+  .b2c-cta-description {
+    font-size: 18px;
+  }
+
+  .b2c-cta-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
