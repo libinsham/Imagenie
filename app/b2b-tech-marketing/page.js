@@ -41,8 +41,8 @@ export default function B2BTechMarketingPage() {
 
       <p className="b2b-hero__description">
         We help technology companies, SaaS platforms, enterprise software
-        providers, and professional services firms transform complex
-        offerings into compelling brand narratives that drive trust,
+        providers, <br/> and professional services firms transform complex
+        offerings <br/> into compelling brand narratives that drive trust,
         demand, and measurable business growth.
       </p>
 
