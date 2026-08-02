@@ -86,7 +86,7 @@ export default function Footer() {
 
           <a
             className="c-link c-link--black c-link--linkedin"
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/company/digitalfabric-imagenie/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -94,7 +94,7 @@ export default function Footer() {
 
           <a
             className="c-link c-link--black c-link--instagram"
-            href="https://instagram.com"
+            href="https://www.instagram.com/imagenie.in_?igsh=MTl6cjh6eW9kaGFuNQ%3D%3D&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
