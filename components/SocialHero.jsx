@@ -24,7 +24,7 @@ export default function SocialHero() {
             </p>
 
             
-              <div className="c-btn c-btn--orange">
+              <div className="c-btn ">
                 <Link href="/contact">
                   Follow Our Journey
                 </Link>

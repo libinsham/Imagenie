@@ -31,7 +31,7 @@ export default function SocialCTA() {
 
             <div className="social-cta__buttons">
 
-              <div className="c-btn c-btn--orange">
+              <div className="c-btn">
                 <Link href="/contact">
                   Start Your Project
                 </Link>
