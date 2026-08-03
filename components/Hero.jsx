@@ -15,7 +15,7 @@ export default function Hero() {
     const src =
   window.innerWidth > 991
     ? "/video/Abstract_Cubes.mp4"
-    : "https://fox.agency/wp-content/uploads/2023/05/1022-ap-540p30-640-360.mp4";
+    : "/video/Abstract_Cubes.mp4";
 
     const source = document.createElement("source");
     source.src = src;
