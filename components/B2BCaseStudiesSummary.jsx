@@ -6,9 +6,9 @@ const caseStudies = [
      image: "/images/case-studies/case-study-4.png",
    
     pdf: "/images/case-studies/T-Hub.pdf",
-    category: "Artificial Intelligence",
-    title: "AI as Capital",
-    result: "ROCE of AI",
+    category: "T-Hub",
+    title: "T-Hub",
+    result: "T-HUb",
   },
   {
     image: "/images/case-studies/case-study-2.png",
@@ -20,8 +20,8 @@ const caseStudies = [
   {
     image: "/images/case-studies/case-study-5.png",
     pdf: "/images/case-studies/Workday.pdf",
-    category: "Digital",
-    title: "Financial Institutions",
+    category: "Work day",
+    title: "Work Days",
     result: "Digital Banking",
   },
   {

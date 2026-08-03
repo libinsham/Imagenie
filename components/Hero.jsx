@@ -55,8 +55,8 @@ export default function Hero() {
               <div className="c-b-hero__intro--video">
                 <div className="c-b-hero__intro">
                   <p>
-                   From strategy and positioning to storytelling, design, and marketing, we help B2B and B2C brands create clarity, 
-                   stand apart, and drive measurable growth. / 
+                   From strategy and positioning to storytelling, design, and marketing, <br/> we help B2B and B2C brands create clarity, 
+                   stand apart, and drive measurable growth.
                   </p>
                   <p>We call this creating opportunity. It&rsquo;s what we do.</p>
                 </div>

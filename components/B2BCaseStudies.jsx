@@ -20,7 +20,7 @@ const caseStudies = [
     image: "/images/case-studies/case-study-3.png",
     pdf: "/images/case-studies/Financial-3.pdf",
     category: "Banking",
-    title: "Financial Institutions",
+    title: "Financial",
     result: "Digital Banking",
   },
   {
