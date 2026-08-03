@@ -4,10 +4,10 @@ import Link from "next/link";
 const caseStudies = [
   {
     image: "/images/case-studies/case-study-1.png",
-    pdf: "/images/case-studies/AI-1.pdf",
-    category: "Artificial Intelligence",
-    title: "AI as Capital",
-    result: "ROCE of AI",
+    pdf: "/images/case-studies/Third.pdf",
+    category: "Research",
+    title: "Third Eye Research Shorts",
+    result: "Series 4",
   },
   {
     image: "/images/case-studies/case-study-2.png",
@@ -34,16 +34,10 @@ const caseStudies = [
     image: "/images/case-studies/case-study-5.png",
     pdf: "/images/case-studies/Workday.pdf",
     category: "Artificial Intelligence",
-    title: "How Agentic AI Redefines",
+    title: "How Agentic AI Redecfines",
     result: "Decision Intelligence",
   },
-  {
-    image: "/images/case-studies/case-study-6.png",
-    pdf: "/images/case-studies/Third.pdf",
-    category: "Research",
-    title: "Third Eye Research Shorts",
-    result: "Series 4",
-  },
+  
   {
     image: "/images/case-studies/case-study-7.png",
     pdf: "/images/case-studies/T-Hub.pdf",
