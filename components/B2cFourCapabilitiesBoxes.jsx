@@ -65,11 +65,12 @@ export default function B2bFourCapabilitiesBoxes() {
     </p>
   </div>
 
+
 <div className="c-btn c-btn--black-transparent ">
             <Link href="/b2b-tech-marketing">
               See what we do
             </Link>
-          </div>
+          </div>  
 
 </div>
 

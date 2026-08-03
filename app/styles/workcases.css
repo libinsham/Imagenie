@@ -2,7 +2,7 @@
         .work-showcase {
           display: grid;
           grid-template-columns: 1.3fr 1fr 1fr;
-          grid-template-rows: repeat(2, 260px);
+          grid-template-rows: repeat(2, 300px);
           gap: 6px;
         }
         .work-showcase__tile {

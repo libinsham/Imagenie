@@ -6,7 +6,7 @@ import OffsetCards from "../../components/OffsetCards";
 import Link from "next/link";
 import B2bFourCapabilitiesBoxes from "../../components/B2bFourCapabilitiesBoxes";
 import B2BProcessSection from "../../components/B2BProcessSection";
-import B2BCaseStudies from "../../components/B2BCaseStudies";
+import B2BCaseStudiesSummary from "../../components/B2BCaseStudiesSummary";
 
 
 export const metadata = {
@@ -101,7 +101,7 @@ export default function B2BTechMarketingPage() {
   <B2bFourCapabilitiesBoxes />
 
   <B2BProcessSection />
-  <B2BCaseStudies />
+  <B2BCaseStudiesSummary />
      
       </main>
 

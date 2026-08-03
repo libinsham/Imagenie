@@ -68,7 +68,7 @@ export default function B2BCaseStudies() {
           </div>
 
           <Link href="/our_work" className="case-btn">
-            View All
+            Our Works
           </Link>
         </div>
 
@@ -109,11 +109,7 @@ export default function B2BCaseStudies() {
           ))}
         </div>
 
-        <div className="case-footer">
-          <Link href="/our_work" className="case-btn">
-            View All Case Studies
-          </Link>
-        </div>
+      
       </div>
     </section>
   );

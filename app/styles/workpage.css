@@ -218,6 +218,11 @@ body{
   background: #ff8534;
 }
 
+.work-cta__btn a {
+  background: #e6d7cd;
+}
+
+
 /* ===== Full-bleed black behind everything on this page ===== */
 /* Requires wrapping the page content in a class="work-page" element -
    see note below. Scoped to this class only so it can't leak black

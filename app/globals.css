@@ -51,6 +51,9 @@ h6 {
   flex-shrink: 0 !important;
 }
 
+
+
+
 /* Mobile */
 @media (max-width: 768px) {
   .c-header__branding img {
@@ -581,7 +584,7 @@ strong {
 a:link,
 a:visited {
   font-family: MontRegular, sans-serif;
-  color: #b8b6b6;
+  color: #fffefe;
   text-decoration: none;
   letter-spacing: -0.5px;
 }

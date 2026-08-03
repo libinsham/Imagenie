@@ -5,7 +5,7 @@ import SimpleContactForm from "../../components/SimpleContactForm";
 import { offices } from "../../lib/navigation";
 
 export const metadata = {
-  title: "Contact Us | Fox Agency",
+  title: "Contact Us | Imagenie",
   description: "Get in touch with Fox Agency - the B2B tech marketing agency.",
 };
 

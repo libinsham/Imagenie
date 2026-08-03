@@ -4,18 +4,18 @@
 const items = [
   {
     label: "Website",
-    image: "/images/work1.png",
+    image: "/images/work1.jpg",
     size: "large",
     href: "/work#website",
   },
   {
     label: "Social Media",
-    image: "/images/work2.png",
+    image: "/images/work2.jpg",
     href: "/work#social-media",
   },
   {
     label: "Print Collaterals",
-    image: "/images/work3.png",
+    image: "/images/work3.jpg",
     href: "/work#print",
   },
   {
@@ -25,7 +25,7 @@ const items = [
   },
   {
     label: "Packaging",
-    image: "/images/work5.png",
+    image: "/images/work5.jpg",
     href: "/work#packaging",
   },
 ];
