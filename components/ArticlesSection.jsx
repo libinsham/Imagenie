@@ -154,8 +154,7 @@ export default function ArticlesSection({
 
   return (
     <section
-      className={`o-container--fluid c-block-padding--both c-block-background--${variant}`}
-    >
+      className={`o-container--fluid c-block-padding--both c-block-background--${variant}`} >
       <div className="o-container">
         <div className="o-container__row">
 

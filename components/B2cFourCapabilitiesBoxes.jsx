@@ -79,7 +79,7 @@ export default function B2bFourCapabilitiesBoxes() {
           {capabilities.map((card) => (
             <div
               key={card.n}
-              className="o-container__col-12 o-container__col-md-6 o-container__col-lg-3"
+              className="o-container__col-12 o-container__col-md-6 o-container__col-lg-4"
             >
               <article className="cap-card">
 

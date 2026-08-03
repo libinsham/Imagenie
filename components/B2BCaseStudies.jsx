@@ -19,23 +19,23 @@ const caseStudies = [
   {
     image: "/images/case-studies/case-study-3.png",
     pdf: "/images/case-studies/Financial-3.pdf",
-    category: "Banking",
-    title: "Financial",
-    result: "Digital Banking",
+    category: "Markeing Analysic",
+    title: "GCC Market",
+    result: "B2B Market",
   },
   {
     image: "/images/case-studies/case-study-4.png",
     pdf: "/images/case-studies/GCC-4.pdf",
     category: "Market Research",
-    title: "GCC Market Trends",
+    title: "T-Hub",
     result: "Industry Report",
   },
   {
     image: "/images/case-studies/case-study-5.png",
     pdf: "/images/case-studies/Workday.pdf",
-    category: "Artificial Intelligence",
-    title: "How Agentic AI Redecfines",
-    result: "Decision Intelligence",
+    category: "CASE Study",
+    title: "Work Day Battlecard",
+    result: "Work Day",
   },
   
   {
