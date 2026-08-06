@@ -55,10 +55,14 @@ Every Stage" variant="white">
           </p>
         </TextText>
 
-       <OffsetCards
+      <OffsetCards
   cards={[
     {
-      heading: "B2B Brands",
+      heading: (
+        <>
+          <span className="highlight-orange">B2B</span> Brands
+        </>
+      ),
       image: "/images/B2B_Option%202.jpg",
       body:
         "We help B2B teams turn complex offerings into clear, credible brand narratives for enterprise buyers. We create go-to-market stories that sales teams can confidently use, along with whitepapers, pitch decks, landing pages, and campaigns that influence buying decisions.",
@@ -66,16 +70,19 @@ Every Stage" variant="white">
       linkLabel: "Explore B2B Services",
     },
     {
-      heading: "B2C Brands",
+      heading: (
+        <>
+          <span className="highlight-orange">B2C</span> Brands
+        </>
+      ),
       image: "/images/B2C_Option%202.jpg",
       body:
-        "We help consumer brands build memorable identities that people recognize and trust. Retail and customer-centric by design - from packaging and websites to campaigns and content systems, we create experiences that stand out at every touchpoint.",
+        "We help consumer brands build memorable identities that people recognize and trust. Retail and customer-centric by design—from packaging and websites to campaigns and content systems, we create experiences that stand out at every touchpoint.",
       href: "/b2c",
       linkLabel: "Explore B2C Services",
     },
   ]}
 />
-
     <FourCapabilitiesBoxes />
 
     <MessageTicker words={["IDEATE",  "ILLUSTRATE", "ARTICULATE"]} />

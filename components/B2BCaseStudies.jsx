@@ -53,7 +53,7 @@ export default function B2BCaseStudies() {
       <div className="o-container">
         <div className="case-header">
           <div>
-            <h2 className="case-heading">B2B Case Studies</h2>
+            <h2 className="case-heading">Our Expertise</h2>
 
             <p className="case-subheading">
               Real stories of strategy, branding and creative execution that
@@ -62,7 +62,7 @@ export default function B2BCaseStudies() {
           </div>
 
           <Link href="/our_work" className="case-btn">
-            Our Works
+            Our Work
           </Link>
         </div>
 

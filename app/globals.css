@@ -6,7 +6,8 @@
 @import "./styles/industriesorbit.css";
 @import "./styles/b2b.css";
 @import "./styles/b2c.css";
-
+@import "./styles/home.css";
+@import "./styles/about.css";
 /* ===========================
    Imagenie Logo Fix
    =========================== */
@@ -18,6 +19,7 @@ h4,
 h5,
 h6 {
   font-family: MontLight, sans-serif;
+  
 }
 
 .c-header__branding {
@@ -2947,6 +2949,13 @@ body.is-open {
   font-size: min(max(1.875em, 5vw), 2.75em);
   font-size: clamp(1.875em, 5vw + 1rem, 2.75em);
 }
+
+.home-intro-heading h2 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
 #BambooHR h2 {
   display: none;
 }
@@ -3178,10 +3187,12 @@ body.is-open {
 .c-b-text-text__left-copy-wrapper {
   overflow: hidden;
   margin-bottom: 2rem;
+  font-weight: 00;
 }
 @media (min-width: 48em) {
   .c-b-text-text__left-copy-wrapper {
     margin-bottom: 0;
+    font-weight: 900;
   }
 }
 .c-b-text-text__left-copy-container {
@@ -3281,6 +3292,9 @@ body.is-open {
 }
 .c-b-text-text h2 {
   font-family: MontLight, sans-serif;
+  font-weight: 700;
+ 
+
 }
 .c-b-text-text h2 strong {
   font-family: MontSemiBold, sans-serif;

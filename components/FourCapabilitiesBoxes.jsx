@@ -3,29 +3,29 @@ import Link from "next/link";
 
 const capabilities = [
   {
-    n: "01",
-    heading: "GTM Strategy & Positioning",
+        heading: "GTM Strategy & Positioning",
     tagline: "Sharper positioning. Clearer market direction.",
     body: "We develop GTM strategy, messaging, buyer journeys, and launch plans grounded in research and market realities.",
     image: "/images/capabilities/strategy.jpg",
   },
   {
-    n: "02",
-    heading: "Brand & Identity",
+   
+    heading: "Brand Identitity & Creative Design",
     tagline: "Brands people recognise, trust, and choose.",
     body: "We create visual and verbal identity systems designed to scale across markets and touchpoints.",
     image: "/images/capabilities/brand.jpg",
   },
   {
-    n: "03",
-    heading: "Content, Research & Thought Leadership",
+  
+    heading: " Content  Research & Copyrighting",
     tagline: "Insights packaged into content that earns attention.",
     body: "We produce research-led whitepapers, reports, articles, infographics, and enablement assets that earn attention and credibility.",
     image: "/images/capabilities/content.jpg",
   },
   {
-    n: "04",
-    heading: "Creative & Campaigns",
+
+
+    heading: "Digital Multi Channel Marketing Campaign",
     tagline: "Design that makes strategy visible.",
     body: "We create websites, landing pages, social content, ads, decks, packaging, and collateral across digital and print.",
     image: "/images/capabilities/creative.jpg",
@@ -46,13 +46,11 @@ export default function FourCapabilitiesBoxes() {
             marginBottom: "50px",
           }}
         >
-          <h2 style={{ color: "#fff" }}>Four Capabilities</h2>
+          <h2 className="cap-heading">
+  Four Capabilities
+</h2>
 
-          <div className="c-btn c-btn--black-transparent">
-            <Link href="/b2b-tech-marketing">
-              See what we do
-            </Link>
-          </div>
+          
         </div>
 
         <div className="o-container__row">
@@ -61,29 +59,32 @@ export default function FourCapabilitiesBoxes() {
               key={card.heading}
               className="o-container__col-12 o-container__col-md-6 o-container__col-lg-3"
             >
-              <div className="cap-card">
+             <div className="cap-card">
 
-                <span className="cap-number">
-                  {card.n}
-                </span>
+  <div className="cap-image">
+    <img
+      src={card.image}
+      alt={card.heading}
+    />
+  </div>
 
-                <h3 className="cap-title">
-                  {card.heading}
-                </h3>
+  <h3 className="cap-title">
+    {card.heading}
+  </h3>
 
-                <div className="cap-content">
+  <div className="cap-content">
 
-                  <p className="cap-tagline">
-                    {card.tagline}
-                  </p>
+    <p className="cap-tagline">
+      {card.tagline}
+    </p>
 
-                  <div className="cap-body">
-                    <p>{card.body}</p>
-                  </div>
+    <div className="cap-body">
+      <p>{card.body}</p>
+    </div>
 
-                </div>
+  </div>
 
-              </div>
+</div>
             </div>
           ))}
         </div>

@@ -5,6 +5,8 @@ import TextText from "../../components/TextText";
 import OffsetCards from "../../components/OffsetCards";
 import B2cFourCapabilitiesBoxes from "../../components/B2cFourCapabilitiesBoxes"
 import B2CIndustriesGrid from "../../components/B2CIndustriesGrid";
+import B2cProcessSection from "../../components/B2cProcessSection";
+import B2CCaseStudiesSummary from "../../components/B2CCaseStudiesSummary";
 import Link from "next/link";
 
 
@@ -30,7 +32,7 @@ export default function B2CPage() {
       <div className="o-container">
         <div className="b2b-hero__content">
           <span className="b2b-hero__eyebrow">
-            B2C PAGE – “B2C, D2C & Brand Experiences
+      
           </span>
 
           <h1>B2C brands people remember   <br />and return to. </h1>
@@ -65,76 +67,11 @@ export default function B2CPage() {
 
       <B2cFourCapabilitiesBoxes/>
 
-       <TextText heading="How We Work With B2C Brands   " variant="white">
-            <p>
-           <ul>
-  <li>
-    D2C Wellness Brand – Full identity, packaging system and Shopify store, ready for paid and influencer marketing.  
-  </li>
+      <B2cProcessSection/>
 
-  <li>
-   Hospitality Brand – Visual refresh, website and content that moved direct bookings away from OTAs.   
-  </li>
+<B2CCaseStudiesSummary />
 
-  <li>
-    <b>Lifestyle Retailer </b>– Social‑first creative system and campaigns that drove consistent online engagement. 
-  </li>
-
- 
-</ul>
-          </p>
-
-    <div
-  style={{
-    marginTop: "30px",
-    border: "2px solid #ff6a00",
-    padding: "20px 20px",
-    borderRadius: "12px",
-    width: "33%",
-  }}
->
-  <Link href="/contact" className="b2c-cta">
-    Talk to Our B2C Team →
-  </Link>
-</div>
-        
-        </TextText>
-
- <TextText heading="B2C Case Snippets  " variant="black">
-            <p>
-           <ul>
-  <li>
-    D2C Wellness Brand – Full identity, packaging system and Shopify store, ready for paid and influencer marketing.  
-  </li>
-
-  <li>
-   Hospitality Brand – Visual refresh, website and content that moved direct bookings away from OTAs.   
-  </li>
-
-  <li>
-    <b>Lifestyle Retailer </b>– Social‑first creative system and campaigns that drove consistent online engagement. 
-  </li>
-
- 
-</ul>
-          </p>
-
-    <div
-  style={{
-    marginTop: "30px",
-    border: "2px solid #ff6a00",
-    padding: "20px 20px",
-    borderRadius: "12px",
-    width: "33%",
-  }}
->
-  <Link href="/contact" className="b2c-cta">
-    Talk to Our B2C Team →
-  </Link>
-</div>
-        
-        </TextText>
-
+<B2CIndustriesGrid />
 
 <section className="b2c-cta-section">
   <div className="o-container">
@@ -163,7 +100,7 @@ export default function B2CPage() {
 </section>
 
 
-<B2CIndustriesGrid />
+
 
 
       </main>

@@ -1,0 +1,485 @@
+/* ==========================================================
+   HOME - B2B / B2C CARDS
+========================================================== */
+
+.c-b-full-width-text{
+    width:100%;
+    background:#000;
+    padding:20px 0;
+    overflow:hidden;
+}
+
+.c-b-full-width-text .o-container{
+    max-width:1600px;
+    margin:0 auto;
+    padding:0 40px;
+    background:transparent;
+}
+
+/* =========================
+   TWO COLUMN LAYOUT
+========================= */
+
+.c-b-offset-cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:  40px;
+    width:100%;
+}
+
+.c-b-offset-cards__left{
+    width:100%;
+    display:flex;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.c-b-offset-cards__card
+{
+       padding: 24px;
+    min-height: 680px; /* adjust between 640-700px */
+}
+
+.c-b-offset-cards__card:hover{
+
+    transform:translateY(-8px);
+    border-color:#EE9A21;
+
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.c-b-offset-cards__image{
+
+    margin-bottom:30px;
+    overflow:hidden;
+    border-radius:12px;
+
+}
+
+.c-b-offset-cards__image img{
+
+    width:100%;
+    height:360px;
+
+    object-fit:cover;
+    display:block;
+
+    transition:.4s;
+
+}
+
+.c-b-offset-cards__card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.c-b-offset-cards__card h2{
+
+    color:#fff;
+    font-size:44px;
+    line-height:1.1;
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.c-b-offset-cards__card p{
+
+    color:#d4d4d4;
+
+    font-size:16px;
+    line-height:1.8;
+
+    margin-bottom:35px;
+
+}
+
+.highlight-orange{
+    color:#EE9A21;
+    font-weight:700;
+}
+
+.c-b-offset-cards__card h2{
+    color:#FFFFFF;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.c-btn{
+
+    margin-top:auto;
+
+}
+
+.c-btn--black a{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:16px 34px;
+
+    border:1px solid #fff;
+
+    background:transparent;
+    color:#fff;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.c-btn--black a:hover{
+
+    background:#EE9A21;
+    border-color:#EE9A21;
+    color:#fff;
+
+}
+
+
+.cap-image{
+    overflow:hidden;
+    border-radius:14px;
+    margin-bottom:24px;
+}
+
+.cap-image img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    display:block;
+    transition:transform .5s ease;
+}
+
+.cap-card:hover .cap-image img{
+    transform:scale(1.08);
+}
+
+.cap-heading {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cap-b2bsub{
+  color: #fff;
+  font-size: 14px;
+
+  margin: 0;
+}
+   
+
+.cap-card{
+    position:relative;
+    overflow:hidden;
+    min-height:700px;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    padding:28px;
+    background:linear-gradient(
+        rgba(0,0,0,.75),
+        rgba(0,0,0,.75)
+    ),
+    url("/images/abstract-light-painting-dark_comp.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:#fff;
+    transition:.35s ease;
+}
+
+
+
+        .cap-number {
+          display: block;
+          color: rgba(255,255,255,.55);
+          font-size: 18px;
+          margin-bottom: 22px;
+        }
+
+       .cap-title {
+       font-size:38px;
+    line-height:1.1;
+    font-weight:700;
+    margin-bottom:24px;
+    color:#EE9A21 !important;   /* Imagenie Orange */
+    transition:transform .45s ease;;
+}
+
+
+.cap-card h3{
+    color:#EE9A21 !important;
+}
+
+        .cap-content{
+           display:flex;
+    flex-direction:column;
+    flex:1;
+    margin-top:20px;
+        }   
+
+        .cap-tagline{
+          color:#e36912;
+          font-size:20px;
+          line-height:1.35;
+          margin:0;
+
+          transition:
+            opacity .35s ease,
+            transform .35s ease;
+        }
+
+        .cap-body{
+          margin-top:18px;
+
+    opacity:0;
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:
+        opacity .4s ease,
+        max-height .45s ease;
+        }
+
+        .cap-body p{
+          font-size:18px;
+          line-height:1.65;
+          color:#fff;
+          margin:0;
+        }
+
+        .cap-card:hover .cap-title{
+          transform:translateY(-10px);
+        }
+
+        .cap-card:hover .cap-tagline{
+          opacity:0;
+          transform:translateX(-30px);
+        }
+
+        .cap-card:hover .cap-body{
+           opacity:1;
+    max-height:400px;
+        }
+
+/* cb message */
+
+
+.c-b-message{
+    width:100%;
+    overflow:hidden;
+    background:#111;
+    white-space:nowrap;
+}
+
+.c-b-message__list{
+    width:100%;
+    overflow:hidden;
+}
+
+.c-b-message__track{
+    display:flex;
+    align-items:center;
+    width:max-content;
+    flex-wrap:nowrap;
+
+    animation:marquee 30s linear infinite;
+}
+
+.c-b-message__word{
+    display:inline-flex;
+    align-items:center;
+    font-size:110px;
+    font-weight:700;
+    color:#fff;
+    flex-shrink:0;
+}
+
+.c-b-message__bullet{
+    color:#EE9A21;
+    font-size:40px;
+    margin:0 70px;
+    flex-shrink:0;
+}
+
+@keyframes marquee{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
+
+
+
+
+
+
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media(max-width:991px){
+
+.c-b-full-width-text{
+
+    padding:80px 0;
+
+}
+
+.c-b-full-width-text .o-container{
+
+    padding:0 24px;
+
+}
+
+.c-b-offset-cards{
+
+    grid-template-columns:1fr;
+    gap:30px;
+
+}
+
+.c-b-offset-cards__card{
+
+    padding:30px;
+
+}
+
+.c-b-offset-cards__image img{
+
+    height:300px;
+
+}
+
+.c-b-offset-cards__card h2{
+  color:#d68400;
+    font-size:38px;
+    font-weight:700;
+    line-height:1.1;
+    margin-bottom:16px;
+
+}
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+.c-b-full-width-text{
+
+    padding:60px 0;
+
+}
+
+.c-b-full-width-text .o-container{
+
+    padding:0 18px;
+
+}
+
+.c-b-offset-cards{
+
+    grid-template-columns:1fr;
+    gap:24px;
+
+}
+
+.c-b-offset-cards__card{
+
+    padding:20px;
+
+}
+
+.c-b-offset-cards__image{
+
+    margin-bottom:20px;
+
+}
+
+.c-b-offset-cards__image img{
+
+    height:220px;
+
+}
+
+.c-b-offset-cards__card h2{
+
+    font-size:30px;
+
+}
+
+.c-b-offset-cards__card p{
+
+    font-size:16px;
+    line-height:1.7;
+
+}
+
+.c-btn--black a{
+
+    width:100%;
+
+}
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px){
+
+.c-b-full-width-text{
+
+    padding:45px 0;
+
+}
+
+.c-b-offset-cards__card{
+
+    padding:18px;
+
+}
+
+.c-b-offset-cards__image img{
+
+    height:180px;
+
+}
+
+.c-b-offset-cards__card h2{
+
+    font-size:26px;
+
+}
+
+}

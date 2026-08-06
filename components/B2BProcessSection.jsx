@@ -48,12 +48,9 @@ export default function B2BProcessSection() {
            
           </div>
 
-          <Link
-            href="/contact"
-            className="process-btn"
-          >
-            See our process
-          </Link>
+
+        
+
 
         </div>
 

@@ -1,5 +1,5 @@
 // Plain grid of case study cards - no client-side JS. Each card links out to
-// the live write-up on fox.agency until those pages are rebuilt here.
+// the live write-up on Imagenie until those pages are rebuilt here.
 
 export default function WorkGrid({ articles }) {
   return (

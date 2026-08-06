@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const capabilities = [
   {
-    n: "01",
+    
     heading: "GTM Story & Positioning",
     subtitle: "(with DigitalFabric® Consulting)",
     body: [
@@ -13,7 +13,7 @@ const capabilities = [
     ],
   },
   {
-    n: "02",
+    n: "",
     heading: "Thought Leadership & Content",
     subtitle: "",
     body: [
@@ -24,7 +24,7 @@ const capabilities = [
     ],
   },
   {
-    n: "03",
+    n: "",
     heading: "B2B Brand & Experience",
     subtitle: "",
     body: [
@@ -55,11 +55,12 @@ export default function B2bFourCapabilitiesBoxes() {
     </p>
   </div>
 
+{/*
 <div className="c-btn c-btn--black-transparent ">
             <Link href="/b2b-tech-marketing">
               See what we do
             </Link>
-          </div>
+          </div> */}
 
 </div>
 
@@ -68,7 +69,7 @@ export default function B2bFourCapabilitiesBoxes() {
           {capabilities.map((card) => (
             <div
               key={card.n}
-              className="o-container__col-12 o-container__col-md-6 o-container__col-lg-3"
+              className="o-container__col-12 o-container__col-md-6 o-container__col-lg-4"
             >
               <article className="cap-card">
 

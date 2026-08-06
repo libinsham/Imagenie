@@ -30,7 +30,7 @@ export default function B2BTechMarketingPage() {
     <div className="b2b-hero__content">
 
       <span className="b2b-hero__eyebrow">
-        B2B MARKETING FOR TECHNOLOGY BRANDS
+       
       </span>
 
       <h1>B2B Tech Marketing</h1>
@@ -54,11 +54,7 @@ export default function B2BTechMarketingPage() {
             </Link>
           </div>
 
-      <div className="c-btn c-btn--black-transparent ">
-            <Link href="/b2b-tech-marketing">
-              View our work
-            </Link>
-          </div>
+     
 
       </div>
 
@@ -81,18 +77,24 @@ export default function B2BTechMarketingPage() {
 </TextText>
 
         <TextText heading="Problems We Solve  " variant="black">
-          <p>
-               Your offer is valuable, but the story around it feels unclear. 
+        
 
-            Sales teams explain the same thing in different ways. 
+<ul className="problem-list">
+  <li>Your offer is valuable, but the story around it feels unclear.</li>
 
-                 GTM materials exist, but they are not built for real use. 
+  <li>Your website explains what you do, but doesn't persuade enterprise buyers.</li>
 
-                  Content is being produced, but it is not strengthening market position or accelerating deals. 
-          </p>
-          <p>
-            
-          </p>
+  <li>Your sales and marketing teams use inconsistent messaging.</li>
+
+  <li>Technical expertise isn't translated into business value.</li>
+
+  <li>Marketing assets exist, but they don't generate trust or qualified leads.</li>
+
+  <li>Your brand looks credible, but doesn't differentiate you from competitors.</li>
+</ul>
+
+
+         
         </TextText>
 
 

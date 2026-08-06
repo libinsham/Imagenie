@@ -136,6 +136,49 @@
 }
 
 /* ==========================================================
+   B2B SERVICES CARDS
+========================================================== */
+
+.b2b-services-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:40px;
+    margin-top:50px;
+}
+
+.b2b-service-card{
+    background:#000;
+    min-height:650px;
+    padding:36px;
+    display:flex;
+    flex-direction:column;
+    transition:.35s ease;
+}
+
+.b2b-service-card:hover{
+    transform:translateY(-8px);
+}
+
+.b2b-service-card h3{
+    color:#EE9A21;
+    font-size:48px;
+    line-height:1.1;
+    margin-bottom:22px;
+}
+
+.b2b-service-card ul{
+    margin:0;
+    padding-left:22px;
+}
+
+.b2b-service-card li{
+    color:#fff;
+    font-size:20px;
+    line-height:1.8;
+    margin-bottom:16px;
+}
+
+/* ==========================================================
    ARROW
 ========================================================== */
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const capabilities = [
   {
-    n: "01",
+    
     heading: "Brand & Identity",
     subtitle: "",
     body: [
@@ -15,7 +15,7 @@ const capabilities = [
     ],
   },
   {
-    n: "02",
+  
     heading: " Packaging & Collateral",
     subtitle: "",
     body: [
@@ -30,7 +30,7 @@ const capabilities = [
     ],
   },
   {
-    n: "03",
+    n: "",
     heading: "Digital Presence & Campaigns",
     subtitle: "",
     body: [
@@ -66,11 +66,6 @@ export default function B2bFourCapabilitiesBoxes() {
   </div>
 
 
-<div className="c-btn c-btn--black-transparent ">
-            <Link href="/b2b-tech-marketing">
-              See what we do
-            </Link>
-          </div>  
 
 </div>
 
@@ -82,6 +77,9 @@ export default function B2bFourCapabilitiesBoxes() {
               className="o-container__col-12 o-container__col-md-6 o-container__col-lg-4"
             >
               <article className="cap-card">
+                 
+
+
 
                 <span className="cap-number">
                   {card.n}

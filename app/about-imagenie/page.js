@@ -18,32 +18,135 @@ export default function AboutPage() {
       <Header />
 
       <main id="content">
-        <div className="o-container--fluid c-links c-links--black c-font c-font--black c-block-background--black">
-          <div className="o-container">
-            <div className="o-container__row c-block-padding--both">
-              <div className="o-container__col-12 o-container__col-md-8">
-                <h1>Bring the excitement</h1>
-                <p>
-                  <ul><li>Yojana-Tantra - aligning brand and GTM thinking with business goals  </li>
+        <section className="about-hero">
+  <div className="o-container">
 
-      <li> Kala-Rachana - combining creative craft with structural clarity  </li>
+    <div className="about-hero__grid">
 
-     <li> Likha-Tantra - research-led writing built for authority and action  </li>
+      {/* LEFT CONTENT */}
 
-     <li>   Jana-Pravartana - marketing systems designed to move audiences to act </li> </ul>
-                </p>
-              </div>
-              <div className="o-container__col-12">
-                <img
-                  loading="lazy"
-                  src="images/Brand&Identity_Option1.jpg"
-                  alt=""
-                  style={{ width: "100%", height: "auto" }}
-                />
-              </div>
+      <div className="about-hero__content">
+
+        <span className="about-hero__eyebrow">
+          ABOUT IMAGENIE
+        </span>
+
+        <h1 className="about-hero__title">
+       
+          <span> Who</span>
+          
+         We are
+        </h1>
+
+        <p className="about-hero__description">
+          Imagenie™ is the creative and storytelling studio of
+          <strong> DigitalFabric® Group.</strong>
+         We bring together strategy, branding,
+         design, content, and communication to help ambitious brands express themselves 
+         clearly, connect with the right audiences, and grow with purpose.
+        </p>
+
+        
+
+        <div className="about-points">
+
+          <div className="about-point">
+            <div className="about-icon">◎</div>
+
+            <div>
+              <h4>Yojana-Tantra</h4>
+
+              <p>
+                Aligning brand and GTM thinking
+                with business goals.
+              </p>
             </div>
           </div>
+
+          <div className="about-point">
+            <div className="about-icon">✎</div>
+
+            <div>
+              <h4>Kala-Rachana</h4>
+
+              <p>
+                Combining creative craft
+                with structural clarity.
+              </p>
+            </div>
+          </div>
+
+          <div className="about-point">
+            <div className="about-icon">▣</div>
+
+            <div>
+              <h4>Likha-Tantra</h4>
+
+              <p>
+                Research-driven storytelling
+                built for authority.
+              </p>
+            </div>
+          </div>
+
+          <div className="about-point">
+            <div className="about-icon">➜</div>
+
+            <div>
+              <h4>Jana-Pravartana</h4>
+
+              <p>
+                Marketing systems designed
+                to move audiences into action.
+              </p>
+            </div>
+          </div>
+
         </div>
+
+      </div>
+
+      {/* RIGHT IMAGE */}
+
+      <div className="about-hero__image">
+
+        <img
+          src="/images/Brand&Identity_Option1.jpg"
+          alt="Imagenie"
+        />
+
+      </div>
+
+    </div>
+
+    {/* STATS */}
+
+    <div className="about-stats">
+
+      <div className="about-stat">
+        <h2>15+</h2>
+        <p>Years Experience</p>
+      </div>
+
+      <div className="about-stat">
+        <h2>200+</h2>
+        <p>Projects Delivered</p>
+      </div>
+
+      <div className="about-stat">
+        <h2>12+</h2>
+        <p>Industries Served</p>
+      </div>
+
+      <div className="about-stat">
+        <h2>98%</h2>
+        <p>Client Satisfaction</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
         <TextText heading="Think smart. Deliver greatness" variant="white">
           <p>
@@ -67,25 +170,13 @@ export default function AboutPage() {
           </p>
         </TextText>
 
-        <div className="o-container--fluid c-links c-links--white c-font c-font--white c-block-background--white c-block-padding--both">
-          <div className="o-container">
-            <div className="o-container__row">
-              <div className="o-container__col-12">
-                <h2>We&rsquo;re quickly growing in numbers</h2>
-                <p>
-                  Tech is the future. But it&rsquo;s also the present. We work with the B2B brands
-                  who want to lead the world, and to do that successfully, we had to grow too.
-                </p>
-              </div>
-              {companyStats.map((stat) => (
-                <div className="o-container__col-12 o-container__col-md-4" key={stat.label}>
-                  <h2>{stat.number}</h2>
-                  <p>{stat.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+      {/* =========================
+    COMPANY STATS
+========================= */}
+
+
+
+
 
         <div className="o-container--fluid c-links c-links--black c-font c-font--black c-block-background--black c-block-padding--both">
           <div className="o-container">
@@ -93,9 +184,7 @@ export default function AboutPage() {
               <div className="o-container__col-12">
                 <h2>Our customers</h2>
                 <p>
-                  We work with amazing clients &ndash; world-leading B2B technology brands with big
-                  ambitions that challenge the &ldquo;normal&rdquo; and embrace the
-                  &ldquo;new&rdquo;.
+                  We work with amazing clients. 
                 </p>
               </div>
               {clientLogos.map((logo) => (

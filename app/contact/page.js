@@ -6,7 +6,7 @@ import { offices } from "../../lib/navigation";
 
 export const metadata = {
   title: "Contact Us | Imagenie",
-  description: "Get in touch with Fox Agency - the B2B tech marketing agency.",
+  description: "Get in touch with Imagenie  - the B2B tech marketing agency.",
 };
 
 export default function ContactPage({ searchParams }) {

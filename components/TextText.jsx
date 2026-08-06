@@ -10,10 +10,15 @@ export default function TextText({ heading, children, variant = "white" }) {
           <div className="o-container__col-12 o-container__col-md-5 c-b-text-text__left-copy c-b-text-text__left-copy--flush">
             <div className="c-b-text-text__left-copy-container">
               <div className="c-b-text-text__left-copy-wrapper">
-                <h2>{heading}</h2>
+
+                <h2
+                  dangerouslySetInnerHTML={{ __html: heading }}
+                />
+
               </div>
             </div>
           </div>
+
           <div className="o-container__col-12 o-container__col-offset-0 o-container__col-md-6 o-container__col-md-offset-1">
             <div
               className={`c-b-text-text__right-copy c-b-text-text__right-copy--flush c-b-text-text__right-copy--${variant} c-b-text-text__right-copy--single`}
